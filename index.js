@@ -36,5 +36,5 @@ let count = 0;
 
 function ticketNumber () {
   count++;
-  return `Now `
+  return `Now serving ticket `
 }

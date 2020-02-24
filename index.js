@@ -35,5 +35,5 @@ function currentLine (deliLine) {
 let count = 0;
 
 function ticketNumber () {
-
+  count++
 }

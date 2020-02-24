@@ -1,10 +1,11 @@
-function takeANumber (currentLine, name) {
+function takeANumber (currentLine, name) { /////////////////////////////
+
   currentLine.push(name);
   for (let i = currentLine.length-1; i >= 0 ; i--) {
      return `Welcome, ${name}. You are number ${i + 1} in line.`;
     }
 }
-
+/* ======================================================= */
 function nowServing (deliLine) {
   if (deliLine.length === 0) {
     return 'There is nobody waiting to be served!'
@@ -12,7 +13,7 @@ function nowServing (deliLine) {
   let customer = deliLine.shift();
   return `Currently serving ${customer}.`;
 }
-
+/*  ====================================================== */
 function currentLine (deliLine) {
   if (deliLine.length === 0) {
     return "The line is currently empty.";
@@ -28,5 +29,6 @@ function currentLine (deliLine) {
       result += `${i + 1}. ${deliLine[i]}`;
     }
   }
-  return result
+  return result;
 }
+////////////////////////////////////////////////////

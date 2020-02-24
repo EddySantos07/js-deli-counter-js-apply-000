@@ -32,8 +32,10 @@ function currentLine (deliLine) {
   return result;
 }
 ////////////////////////////////////////////////////
+
+
 function ticketNumber () {
 
-  
+
 
 }
